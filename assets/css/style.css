@@ -1,0 +1,17 @@
+.buttonArea{
+    height: 150px;
+    width: 30%;
+    position: absolute;
+    background-color: black;
+    right: 2.5%;
+    top: 15%;
+}
+
+.giphy-well{
+    width: auto;
+    height: auto;
+}
+.a {
+    width: 50%;
+    margin-left:15%;
+}
