@@ -7,9 +7,9 @@ var topics = ["cat", "dog", "panda", "grizzly", "dinosaur"];
 
 
 function displayAnimals() {
-    var animalInput = $(".animalButton").parseInt("data-name");
+    var animalInput = $("<button>").attr("data-name");
     var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=Yl7xbLfBMtpnEtLj8K9Jej4jKYk0JUQx&q="+animalInput+"&limit=10&offset=0&rating=G&lang=en";
-    console.log(animalInuput);
+    console.log(animalInput);
     /*var giphCount = $(".counter").val().trim();
     queryURL += "&limit=" + giphCount;*/
     $.ajax({
